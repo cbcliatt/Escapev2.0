@@ -1,0 +1,183 @@
+
+/* general styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+
+.pad-section { padding: 20px 0; }
+
+.pad-section img { width: 100%; }
+
+/* vertical-centered text */
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+
+#box1 {
+  background: white;
+  color: white;
+  display: table;
+  height: 300px;
+  width: 100%;
+    background-image: url(headerbackground.jpg);
+    
+}
+
+#box2 {
+  background-color: #EA8200;
+  color: white;
+  height: auto;
+}
+
+#box3 {
+  background-color: #182C3C;
+  color: white;
+  height: 100%;
+}
+
+footer { padding: 20px 0; }
+
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+
+footer .glyphicon:hover { color: #EE2E24; }
+
+.goToTop {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+
+nav li { background: #f8f8f8; }
+
+
+
+#Augusta {
+Background-color: black;
+height: 80%;
+	padding-bottom: 10px;
+    
+}
+#Evans {
+ background-color: aqua;   
+    padding-bottom: 10px;
+	height: 80%;
+}
+#brand {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.panel-body {
+color: red;
+	
+}
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+#locations{
+	
+	
+}
+#Augusta, #Evans {
+	padding 5px;
+	border-color: black;
+	border-width: 3px;
+	background-color: grey;
+	border-radius: 20px;
+	
+	
+}
+#box2{
+	background-color: white;
+	
+}
+.navbar {
+padding-bottom: 0px;
+	margin-bottom: 0px;
+
+	
+}
+#innerdiv{
+	padding: 20px;
+}
+
+<!-- Foooter -->
+
+#mc_embed_signup {
+width: 100%;	
+
+	
+}
+#mc-embedded-subscribe{
+	
+	margin-top: 10px;
+	border-radius: 10px;
+	
+}
+.mc-field-group{
+	color: darkgrey;
+	
+}
+#footernav {
+	
+	
+}
+.footerinfo {
+font-size: 14px	
+	
+}
+
